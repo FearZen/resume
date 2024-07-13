@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
+  --bs-link-color: #478CCF;
+  --bs-link-hover-color: #4535C1;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -128,6 +128,15 @@ h1, .h1 {
   h1, .h1 {
     font-size: 6rem;
   }
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+}
+
+.portfolio-caption {
+  text-align: left; /* Center text below the images */
 }
 
 h2, .h2 {
@@ -8037,7 +8046,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #3FA2F6 !important;
 }
 
 .text-secondary {
@@ -8128,7 +8137,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #0F67B1 !important;
 }
 
 .bg-secondary {
